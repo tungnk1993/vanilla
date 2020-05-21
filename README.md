@@ -36,6 +36,6 @@ This theme is licensed under the [MIT License](https://github.com/kathyqian/cris
 
 ### More Screenshots
 
-![Desktop Post Screenshot](https://raw.github.com/tungnk1993/vanilla/master/assets/screenshot-desktop.png)
+![Desktop Post Screenshot](https://raw.githubusercontent.com/tungnk1993/vanilla/master/assets/screenshot-desktop.PNG)
 
-![Mobile Screenshot](https://raw.github.com/tungnk1993/vanilla/master/assets/screenshot-mobile.png)
+![Mobile Screenshot](https://raw.githubusercontent.com/tungnk1993/vanilla/master/assets/screenshot-mobile.PNG)
