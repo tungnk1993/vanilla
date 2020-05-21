@@ -1,0 +1,14 @@
+<div class="container">
+	<nav id="nav" class="nav">
+		<a class="navbar-brand" href="/">{{@site.title}}</a>
+		<ul class="navbar-nav ml-auto" style="flex-direction: row;">
+		{{#foreach navigation}}
+			<a class="nav-link {{#if current}}nav-link-active{{/if}}" href="{{url absolute="true"}}">
+				<!--<i data-feather="{{slug}}"></i>-->
+				&gt; {{label}}
+			</a>
+		{{/foreach}}
+		</ul>
+	</nav>
+	<hr>
+</div>

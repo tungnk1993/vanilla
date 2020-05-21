@@ -1,0 +1,9 @@
+{{#get "posts" limit="all"}}
+	{{#foreach posts}}
+	<p id="{{comment_id}}" class="{{post_class}}">
+		<a class="post-title" href="{{url}}">{{title}}</a>
+		<br>
+		{{date published_at format='MMMM D, YYYY'}}	
+	</p>
+	{{/foreach}}
+{{/get}}

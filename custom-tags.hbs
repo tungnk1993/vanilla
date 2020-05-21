@@ -1,0 +1,15 @@
+{{!< default}}
+
+{{#post}}
+
+<h1 class="post-full-title">{{title}}</h1>
+
+{{#get 'tags' limit='all' include='count.posts' order='name desc'}}
+	{{#foreach tags}}
+		<a class="btn btn-outline-dark tag-btn" href="{{url}}">
+	  <span class="badge badge-dark">{{count.posts}}</span> {{name}}
+	</a>
+	{{/foreach}}
+{{/get}}
+
+{{/post}}
